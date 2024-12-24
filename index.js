@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Configuración básica de CORS
 app.use(cors({
-    origin: 'http://localhost:5173', // URL de tu frontend en React
+    origin: 'https://camara-front.vercel.app/', // URL de tu frontend en React
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
