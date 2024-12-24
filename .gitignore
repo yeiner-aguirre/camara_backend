@@ -1,0 +1,20 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar el archivo de configuración de entorno
+.env
+
+# Ignorar las carpetas de compilación (si existen)
+build/
+dist/
+
+# Ignorar archivos temporales del editor
+.vscode/
+.idea/
+
+# Ignorar archivos de sistema operativo (por ejemplo, MacOS, Windows)
+.DS_Store
+Thumbs.db
